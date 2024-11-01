@@ -5,11 +5,11 @@ import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.annotation.WebInitParam;
 
 import java.io.IOException;
-
+/*
 @WebFilter(value = "/*", initParams = {
         @WebInitParam(name = "k1", value = "v1"),
         @WebInitParam(name = "k2", value = "v2")
-}) // "/*" : 모든 패턴 적용 필터
+}) // "/*" : 모든 패턴 적용 필터*/
 public class CommonFilter implements Filter {
 
     @Override
